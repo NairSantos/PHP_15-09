@@ -1,0 +1,21 @@
+body{
+	background-color: #CCCCCC;
+}
+
+@media screen and (max-width: 797px) {
+	.remove-estado{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 555px) {
+	.remove-cidade{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.remove-estado, .remove-cidade, .remove-cep, .remove-bairro, .remove-endereco{
+		display: none;
+	}
+}
